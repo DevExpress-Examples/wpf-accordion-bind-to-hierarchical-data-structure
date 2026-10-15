@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
-    <TargetFrameworks>net8.0-windows;net472</TargetFrameworks>
+    <TargetFrameworks>net10.0-windows;net472</TargetFrameworks>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>WinExe</OutputType>
     <RootNamespace>
@@ -43,19 +43,19 @@
     <Resource Include="Images\Sales.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Data" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Data.Desktop" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Mvvm" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Office.Core" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Printing.Core" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Core" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.RichEdit.Export" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Accordion" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Core" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.LayoutControl" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Reporting" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Themes.Office2016White" Version="24.2.*-*" />
-    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="24.2.*-*" />
+    <PackageReference Include="DevExpress.Data" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Data.Desktop" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Mvvm" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Office.Core" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Printing.Core" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Core" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Export" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Accordion" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.LayoutControl" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Reporting" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.Office2016White" Version="26.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="26.1.*-*" />
     <Reference Include="System.Web" Condition="$(TargetFramework) == 'net472'" />
   </ItemGroup>
 </Project>
